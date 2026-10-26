@@ -42,6 +42,9 @@ class Main {
 
         BirdCage<Zebra> zebraCage = new BirdCage<>();
         zebraCage.setItem(new Zebra());
+        
+        System.out.println(canaryCage.getItem().getClass().getSimpleName());
+System.out.println(zebraCage.getItem().getClass().getSimpleName());
     }
 }
 
